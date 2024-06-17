@@ -1,0 +1,13 @@
+prefix=/Users/mac/Desktop/MLOps/venv
+exec_prefix=/Users/mac/Desktop/MLOps/venv
+libdir=/Users/mac/Desktop/MLOps/venv/lib
+sharedlibdir=/Users/mac/Desktop/MLOps/venv/lib
+includedir=/Users/mac/Desktop/MLOps/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
