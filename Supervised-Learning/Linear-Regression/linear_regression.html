@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Linear Regression</h1>
+        <p>Linear regression is a linear approach to modeling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is called multiple linear regression.</p>
+        <h2>Simple Linear Regression</h2>
+        <p>Simple linear regression is a linear regression model with a single explanatory variable. That is, it concerns two-dimensional sample points with one independent variable and one dependent variable (conventionally, the x and y coordinates in a Cartesian coordinate system) and finds a linear function (a non-vertical straight line) that, as accurately as possible, predicts the dependent variable values as a function of the independent variable. The adjective simple refers to the fact that the outcome variable is related to a single predictor.</p>
+        <h3>Equation of Plane</h3>
+        <p>The equation of the plane is given by:</p>
+        <p>Y = mX + c</p>
+        <p>Where:</p>
+        <p>Y = Dependent Variable</p>
+        <p>X = Independent Variable</p>
+        <p>m = Slope of the line</p>
+        <p>c = Y-intercept</p>
+        <h3>Example</h3>
+        <p>Let's consider an example where we have a dataset of students and their scores in the exam. We want to predict the score of a student based on the number of hours they studied. The dataset is as follows:</p>
+        <table>
+            <tr>
+                <th>Hours Studied</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>125</td>
+            </tr>
+        </table>
+        <p>Now, we can use the linear regression model to predict the score of a student who studied for 7 hours. The equation of the plane is given by:</p>
+        <p>Y = mX + c</p>
+        <p>Where:</p>
+        <p>Y = Score</p>
+        <p>X = Hours Studied</p>
+        <p>Now, we can calculate the slope of the line (m) and the y-intercept (c) using the following formulas:</p>
+        <p>m = (nΣXY - ΣXΣY) / (nΣX^2 - (ΣX)^2)</p>
+        <p>c = (ΣY - mΣX) / n</p>
+        <p>Where:</p>
+        <p>n = Number of data points</p>
+        <p>ΣX = Sum of Hours Studied</p>
+        <p>ΣY = Sum of Scores</p>
+        <p>ΣXY = Sum of Hours Studied * Scores</p>
+        <p>ΣX^2 = Sum of Hours Studied^2</p>
+        <p>Now, we can calculate the slope of the line (m) and the y-intercept (c) using the following formulas:</p>
+        <p>m = (5 * 625 - 20 * 375) / (5 * 30 - 20^2)</p>
+        <p>c = (375 - 5 * 20) / 5</p>
+        <p>Now, we can substitute the values of m and c into the equation of the plane to get the predicted score for a student who studied for 7 hours:</p>
+        <p>Y = 25X + 25</p>
+        <p>Y = 25 * 7 + 25</p>
+        <p>Y = 200</p>
+        <p>Therefore, the predicted score for a student who studied for 7 hours is 200.</p>
+    </div>
+    <div class="cost-function">
+        <h2>Cost Function</h2>
+        <p>The cost function is a measure of how well the model fits the data. It is used to evaluate the performance of the model and to optimize the model parameters. The cost function for linear regression is the mean squared error (MSE), which is defined as the average of the squared differences between the predicted values and the actual values. The formula for the mean squared error is:</p>
+        <p>MSE = Σ(Y - Y')^2 / n</p>
+        <p>Where:</p>
+        <p>Y = Actual value</p>
+        <p>Y' = Predicted value</p>
+        <p>n = Number of data points</p>
+        <p>The goal of linear regression is to minimize the mean squared error by finding the optimal values of the model parameters (slope and y-intercept). This is done using an optimization algorithm such as gradient descent.</p>
+    </div>
+    <div class="gradient-descent">
+        <h2>Gradient Descent</h2>
+        <p>Gradient descent is an optimization algorithm used to minimize the cost function by iteratively updating the model parameters in the direction of the steepest descent of the cost function. The update rule for gradient descent is given by:</p>
+        <p>θ = θ - α * ∂J(θ) / ∂θ</p>
+        <p>Where:</p>
+        <p>θ = Model parameters (slope and y-intercept)</p>
+        <p>α = Learning rate (step size)</p>
+        <p>J(θ) = Cost function (mean squared error)</p>
+        <p>The gradient descent algorithm starts with an initial guess for the model parameters and iteratively updates the parameters until the cost function converges to a minimum. The learning rate determines the size of the steps taken in the parameter space, and it is a critical hyperparameter that affects the convergence of the algorithm.</p>
+    </div>
+    <div class="convergence-algorithm">
+        <h2>Convergence Algorithm</h2>
+        <p>The convergence algorithm is used to determine when the optimization algorithm has converged to a minimum of the cost function. In the case of gradient descent, the convergence criterion is typically based on the change in the cost function between iterations. The algorithm terminates when the change in the cost function is below a certain threshold, indicating that the optimization has converged.</p>
+        <p>There are several convergence criteria that can be used to determine when the optimization algorithm has converged, including:</p>
+        <ul>
+            <li>Change in the cost function between iterations</li>
+            <li>Change in the model parameters between iterations</li>
+            <li>Change in the gradient of the cost function between iterations</li>
+            <li>Number of iterations</li>
+        </ul>
+        <p>The choice of convergence criterion depends on the specific optimization problem and the characteristics of the cost function. It is important to select an appropriate convergence criterion to ensure that the optimization algorithm converges to a meaningful solution.</p>
+    </div>
+    <div class="performance-metrix">
+        <h2>Performance Metrics</h2>
+        <p>There are several performance metrics that can be used to evaluate the performance of a linear regression model. Some of the most common performance metrics include:</p>
+        <ul>
+            <li>Mean Squared Error (MSE)</li>
+            <li>Root Mean Squared Error (RMSE)</li>
+            <li>Mean Absolute Error (MAE)</li>
+            <li>R-squared (R^2)</li>
+        </ul>
+        <p>These performance metrics provide different measures of the accuracy of the model and can be used to compare different models or to evaluate the performance of the model on new data. The choice of performance metric depends on the specific requirements of the problem and the characteristics of the data.</p>
+    </div>
+    <div class="under-over-fitting">
+        <h2>Underfitting and Overfitting</h2>
+        <p>Underfitting and overfitting are common problems in machine learning that can affect the performance of a model. Underfitting occurs when the model is too simple to capture the underlying patterns in the data, resulting in poor performance on both the training and test data. Overfitting occurs when the model is too complex and captures noise in the training data, resulting in high performance on the training data but poor performance on the test data.</p>
+        <p>To address underfitting and overfitting, it is important to select an appropriate model complexity that balances bias and variance. This can be done by tuning the hyperparameters of the model, such as the learning rate and regularization strength, or by using techniques such as cross-validation and early stopping. By selecting an appropriate model complexity, it is possible to improve the generalization performance of the model and avoid underfitting and overfitting.</p>
+    </div>
+</body>
+</html>
