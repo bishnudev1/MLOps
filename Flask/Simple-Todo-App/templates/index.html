@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App with Flask</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App with Flask</h1>
+        <form action="/add-item" method="POST">
+            <input type="text" name="title" placeholder="Enter title here" required>
+            <input type="text" name="task" placeholder="Enter task here" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul>
+            {% for item in items %}
+                <li>ID: {{ item["id"] }}</li>
+                <li>Title: {{ item["title"] }}</li>
+                <li>Task: {{ item["task"] }}</li>
+                <button type="button" onclick="
+                deleteTask({{ item['id'] }});
+                ">Delete Task</button>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <script>
+        function deleteTask(id) {
+            fetch(`/delete-item/${id}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.reload();
+                } else {
+                    alert(data.message);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
