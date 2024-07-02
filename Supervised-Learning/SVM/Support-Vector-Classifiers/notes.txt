@@ -1,0 +1,23 @@
+Support Vector Classification
+
+What is SVC?
+
+Support Vector Classification (SVC) is a type of Support Vector Machine (SVM) used for classification tasks. In SVC, we plot each data item as a point in n-dimensional space (where n is the number of features), with the value of each feature being the value of a particular coordinate. SVC then finds the hyperplane (or set of hyperplanes in higher dimensions) that best separates the classes of data.
+
+When to use SVC?
+
+SVC is useful when dealing with complex and high-dimensional datasets. It is particularly effective for classification tasks where the data is not linearly separable. SVC can handle both binary and multi-class classification problems.
+
+Pros and Cons of SVC
+
+Pros:
+SVC works well with high-dimensional data.
+SVC is effective in cases where the number of dimensions is greater than the number of samples.
+SVC is versatile and can be customized using different kernel functions (e.g., linear, polynomial, radial basis function).
+SVC is robust against overfitting, especially in high-dimensional spaces.
+
+Cons:
+SVC can be computationally expensive and slow for very large datasets.
+SVC performance can be sensitive to the choice of the kernel and its parameters.
+SVC might not perform well with noisy data if the noise level is high.
+SVC requires careful parameter tuning (e.g., regularization parameter C and kernel parameters) to achieve optimal performance.

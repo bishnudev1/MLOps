@@ -1,0 +1,19 @@
+What is Gaussian Naive Bayes?
+
+Gaussian Naive Bayes (GNB) is a type of Naive Bayes algorithm that assumes the continuous features follow a Gaussian (normal) distribution. Naive Bayes is a probabilistic classifier based on Bayes' Theorem, which assumes that the features are independent given the class label. Despite this strong independence assumption, Naive Bayes often performs well in practice, especially with high-dimensional data.
+
+When to use Gaussian Naive Bayes?
+
+Gaussian Naive Bayes is used when you have continuous features and you assume that these features follow a normal distribution. It is particularly effective for classification tasks with relatively small datasets and when the independence assumption is reasonable.
+
+Pros and Cons of Gaussian Naive Bayes
+
+Pros:
+Simple and Fast: Easy to implement and computationally efficient.
+Performs Well with High-Dimensional Data: Often effective even with a large number of features.
+Robust to Irrelevant Features: Can still perform well when many features are irrelevant.
+Works Well with Small Datasets: Often requires less data to achieve good results compared to more complex models.
+Cons:
+Independence Assumption: The strong assumption that features are independent may not hold in practice, potentially leading to lower accuracy.
+Requires Normally Distributed Features: Performance can degrade if the feature distribution deviates significantly from a Gaussian distribution.
+Sensitive to Data Imbalance: Can be affected by imbalanced datasets where some classes are underrepresented.
