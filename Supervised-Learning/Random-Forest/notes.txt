@@ -1,0 +1,13 @@
+# Random Forest Notes
+
+# Random Forest is a type of ensemble learning method, specifically a bagging method.
+# Bagging is a method of combining multiple models to increase the overall accuracy of the model.
+# Random Forest is a collection of decision trees, where each tree is trained on a random subset of the data.
+# The final prediction is the average of all the predictions from all the trees.
+# Random Forest is a very powerful algorithm, and is used in many applications, including classification, regression, and clustering.
+
+# Random Forest is a collection of decision trees, where each tree is trained on a random subset of the data.
+# The final prediction is the average of all the predictions from all the trees.
+# Random Forest is a very powerful algorithm, and is used in many applications, including classification, regression, and clustering.
+
+
