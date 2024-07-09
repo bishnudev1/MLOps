@@ -1,0 +1,13 @@
+2024-07-08 10:06:30,427 - root - INFO - Data Injection initialized
+2024-07-08 10:06:30,431 - root - INFO - Reading dataset from source
+2024-07-08 10:06:30,438 - root - INFO - Data Injection completed
+2024-07-08 10:06:30,440 - root - INFO - Reading dataset from source
+2024-07-08 10:06:30,440 - root - INFO - Neumerical Pipeline created
+2024-07-08 10:06:30,440 - root - INFO - Categorical Pipeline created
+2024-07-08 10:06:30,440 - root - INFO - Preprocessor created
+2024-07-08 10:06:30,440 - root - INFO - Preprocessor created
+2024-07-08 10:06:30,441 - root - INFO - Data split into features and target
+2024-07-08 10:06:30,447 - root - INFO - Data transformed and scaled
+2024-07-08 10:06:30,447 - root - INFO - Model Trainer is initializing...
+2024-07-08 10:06:30,781 - root - INFO - Model Training completed
+2024-07-08 10:06:30,781 - root - INFO - Best Model: LassoCV with R2 Score: 0.8809731287484028

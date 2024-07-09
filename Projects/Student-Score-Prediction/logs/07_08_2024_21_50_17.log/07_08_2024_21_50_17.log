@@ -1,0 +1,3 @@
+2024-07-08 21:50:18,059 - werkzeug - WARNING -  * Debugger is active!
+2024-07-08 21:50:18,066 - werkzeug - INFO -  * Debugger PIN: 930-054-543
+2024-07-08 21:51:19,329 - werkzeug - INFO -  * Detected change in '/Users/mac/Desktop/MLOps/Projects/Student-Score-Prediction/test.py', reloading

@@ -1,0 +1,16 @@
+2024-07-08 20:31:11,676 - root - INFO - Data Injection initialized
+2024-07-08 20:31:11,680 - root - INFO - Reading dataset from source
+2024-07-08 20:31:11,686 - root - INFO - Data Injection completed
+2024-07-08 20:31:11,687 - root - INFO - Reading dataset from source
+2024-07-08 20:31:11,687 - root - INFO - Neumerical Pipeline created
+2024-07-08 20:31:11,687 - root - INFO - Categorical Pipeline created
+2024-07-08 20:31:11,687 - root - INFO - Preprocessor created
+2024-07-08 20:31:11,687 - root - INFO - Preprocessor created
+2024-07-08 20:31:11,688 - root - INFO - Data split into features and target
+2024-07-08 20:31:11,694 - root - INFO - Data transformed and scaled
+2024-07-08 20:31:11,695 - root - INFO - Model Trainer is initializing...
+2024-07-08 20:31:11,695 - root - INFO - Model Training started
+2024-07-08 20:31:11,695 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:31:12,210 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:31:12,211 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:31:12,215 - root - ERROR - Error in Model Training: CustomException.__init__() missing 1 required positional argument: 'error_detail'

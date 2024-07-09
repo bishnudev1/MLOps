@@ -1,0 +1,12 @@
+2024-07-08 09:42:01,443 - root - INFO - Data Injection initialized
+2024-07-08 09:42:01,447 - root - INFO - Reading dataset from source
+2024-07-08 09:42:01,453 - root - INFO - Data Injection completed
+2024-07-08 09:42:01,458 - root - INFO - Reading dataset from source
+2024-07-08 09:42:01,458 - root - INFO - Neumerical Pipeline created
+2024-07-08 09:42:01,458 - root - INFO - Categorical Pipeline created
+2024-07-08 09:42:01,458 - root - INFO - Preprocessor created
+2024-07-08 09:42:01,458 - root - INFO - Preprocessor created
+2024-07-08 09:42:01,460 - root - INFO - Data split into features and target
+2024-07-08 09:42:01,468 - root - INFO - Data transformed and scaled
+2024-07-08 09:42:01,469 - root - INFO - Model Trainer is initializing...
+2024-07-08 09:42:01,469 - root - ERROR - Error in Model Training: CustomException.__init__() missing 1 required positional argument: 'error_detail'

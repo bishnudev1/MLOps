@@ -1,0 +1,32 @@
+2024-07-08 20:37:09,126 - root - INFO - Data Injection initialized
+2024-07-08 20:37:09,127 - root - INFO - Reading dataset from source
+2024-07-08 20:37:09,133 - root - INFO - Data Injection completed
+2024-07-08 20:37:09,134 - root - INFO - Reading dataset from source
+2024-07-08 20:37:09,134 - root - INFO - Neumerical Pipeline created
+2024-07-08 20:37:09,134 - root - INFO - Categorical Pipeline created
+2024-07-08 20:37:09,134 - root - INFO - Preprocessor created
+2024-07-08 20:37:09,134 - root - INFO - Preprocessor created
+2024-07-08 20:37:09,134 - root - INFO - Data split into features and target
+2024-07-08 20:37:09,140 - root - INFO - Data transformed and scaled
+2024-07-08 20:37:09,140 - root - INFO - Model Trainer is initializing...
+2024-07-08 20:37:09,140 - root - INFO - Model Training started
+2024-07-08 20:37:09,140 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:37:09,654 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:37:09,654 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:37:15,887 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:37:15,887 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:38:34,263 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:38:34,273 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:38:34,380 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:38:34,380 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:38:44,688 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:38:44,691 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:38:51,705 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:38:51,707 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:38:51,745 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:38:51,745 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:38:54,356 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:38:54,368 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:39:10,240 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:39:10,243 - root - INFO - Model Training completed
+2024-07-08 20:39:10,243 - root - INFO - Best Model: LassoCV with R2 Score: 0.881566256500233

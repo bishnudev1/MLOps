@@ -1,0 +1,12 @@
+2024-07-08 21:44:05,700 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-08 21:44:05,700 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-08 21:44:05,701 - werkzeug - INFO -  * Restarting with stat
+2024-07-08 21:44:06,242 - werkzeug - WARNING -  * Debugger is active!
+2024-07-08 21:44:06,248 - werkzeug - INFO -  * Debugger PIN: 930-054-543
+2024-07-08 21:44:16,050 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:44:16] "GET / HTTP/1.1" 200 -
+2024-07-08 21:44:16,055 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:44:16] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-07-08 21:44:35,444 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:44:35] "POST / HTTP/1.1" 200 -
+2024-07-08 21:44:35,453 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:44:35] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-07-08 21:45:41,066 - werkzeug - INFO -  * Detected change in '/Users/mac/Desktop/MLOps/Projects/Student-Score-Prediction/src/pipelines/predict_pipelines.py', reloading
+2024-07-08 21:45:41,161 - werkzeug - INFO -  * Restarting with stat

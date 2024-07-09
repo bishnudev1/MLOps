@@ -1,0 +1,9 @@
+2024-07-08 08:42:42,791 - root - INFO - Data Injection initialized
+2024-07-08 08:42:42,795 - root - INFO - Reading dataset from source
+2024-07-08 08:42:42,802 - root - INFO - Data Injection completed
+2024-07-08 08:42:42,803 - root - INFO - Reading dataset from source
+2024-07-08 08:42:42,803 - root - INFO - Neumerical Pipeline created
+2024-07-08 08:42:42,803 - root - INFO - Categorical Pipeline created
+2024-07-08 08:42:42,803 - root - INFO - Preprocessor created
+2024-07-08 08:42:42,803 - root - INFO - Preprocessor created
+2024-07-08 08:42:42,803 - root - ERROR - Error in Data Transformation: "['math_score'] not found in axis"

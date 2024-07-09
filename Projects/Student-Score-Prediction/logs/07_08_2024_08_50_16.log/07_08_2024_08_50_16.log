@@ -1,0 +1,10 @@
+2024-07-08 08:50:16,835 - root - INFO - Data Injection initialized
+2024-07-08 08:50:16,837 - root - INFO - Reading dataset from source
+2024-07-08 08:50:16,841 - root - INFO - Data Injection completed
+2024-07-08 08:50:16,844 - root - INFO - Reading dataset from source
+2024-07-08 08:50:16,844 - root - INFO - Neumerical Pipeline created
+2024-07-08 08:50:16,844 - root - INFO - Categorical Pipeline created
+2024-07-08 08:50:16,844 - root - INFO - Preprocessor created
+2024-07-08 08:50:16,844 - root - INFO - Preprocessor created
+2024-07-08 08:50:16,846 - root - INFO - Data split into features and target
+2024-07-08 08:50:16,851 - root - INFO - Data transformed and scaled

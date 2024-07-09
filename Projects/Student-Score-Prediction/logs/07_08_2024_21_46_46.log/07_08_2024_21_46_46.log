@@ -1,0 +1,7 @@
+2024-07-08 21:46:46,674 - werkzeug - WARNING -  * Debugger is active!
+2024-07-08 21:46:46,692 - werkzeug - INFO -  * Debugger PIN: 930-054-543
+2024-07-08 21:46:49,390 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:46:49] "GET / HTTP/1.1" 200 -
+2024-07-08 21:46:49,391 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:46:49] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-07-08 21:47:04,171 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:47:04] "POST / HTTP/1.1" 200 -
+2024-07-08 21:47:04,180 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 21:47:04] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-07-08 21:50:16,990 - werkzeug - INFO -  * Detected change in '/Users/mac/Desktop/MLOps/Projects/Student-Score-Prediction/test.py', reloading

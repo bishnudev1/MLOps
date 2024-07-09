@@ -1,0 +1,26 @@
+2024-07-08 20:33:14,198 - root - INFO - Data Injection initialized
+2024-07-08 20:33:14,202 - root - INFO - Reading dataset from source
+2024-07-08 20:33:14,208 - root - INFO - Data Injection completed
+2024-07-08 20:33:14,209 - root - INFO - Reading dataset from source
+2024-07-08 20:33:14,209 - root - INFO - Neumerical Pipeline created
+2024-07-08 20:33:14,209 - root - INFO - Categorical Pipeline created
+2024-07-08 20:33:14,209 - root - INFO - Preprocessor created
+2024-07-08 20:33:14,210 - root - INFO - Preprocessor created
+2024-07-08 20:33:14,210 - root - INFO - Data split into features and target
+2024-07-08 20:33:14,216 - root - INFO - Data transformed and scaled
+2024-07-08 20:33:14,217 - root - INFO - Model Trainer is initializing...
+2024-07-08 20:33:14,217 - root - INFO - Model Training started
+2024-07-08 20:33:14,217 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:33:14,724 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:33:14,725 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:33:21,047 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:33:21,048 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:34:36,113 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:34:36,117 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:34:36,232 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:34:36,233 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:34:46,210 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:34:46,212 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:34:52,743 - root - INFO - Hyperparameter tuning has completed
+2024-07-08 20:34:52,745 - root - INFO - Hyperparameter tuning has started
+2024-07-08 20:34:52,757 - root - ERROR - Error in Model Training: CustomException.__init__() missing 1 required positional argument: 'error_detail'

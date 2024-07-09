@@ -1,0 +1,13 @@
+2024-07-08 10:03:51,816 - root - INFO - Data Injection initialized
+2024-07-08 10:03:51,820 - root - INFO - Reading dataset from source
+2024-07-08 10:03:51,828 - root - INFO - Data Injection completed
+2024-07-08 10:03:51,829 - root - INFO - Reading dataset from source
+2024-07-08 10:03:51,829 - root - INFO - Neumerical Pipeline created
+2024-07-08 10:03:51,829 - root - INFO - Categorical Pipeline created
+2024-07-08 10:03:51,829 - root - INFO - Preprocessor created
+2024-07-08 10:03:51,829 - root - INFO - Preprocessor created
+2024-07-08 10:03:51,830 - root - INFO - Data split into features and target
+2024-07-08 10:03:51,837 - root - INFO - Data transformed and scaled
+2024-07-08 10:03:51,838 - root - INFO - Model Trainer is initializing...
+2024-07-08 10:03:52,140 - root - INFO - Model Training completed
+2024-07-08 10:03:52,140 - root - INFO - Best Model: Linear Regression with R2 Score: 0.8804332983749565

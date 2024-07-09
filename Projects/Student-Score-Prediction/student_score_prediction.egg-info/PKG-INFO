@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: student_score_prediction
+Version: 0.0.1
+Summary: A package to predict student score based on study hours
+Author: Bishnudev Khutia
+Author-email: bishnudevkhutia20@gmail.com
+License: MIT
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
