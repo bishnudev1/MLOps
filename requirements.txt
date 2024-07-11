@@ -8,3 +8,4 @@ openpyxl
 seaborn
 flask
 nltk
+gensim
