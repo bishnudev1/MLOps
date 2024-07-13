@@ -9,3 +9,5 @@ seaborn
 flask
 nltk
 gensim
+tensorflow
+tensorflow-macos
