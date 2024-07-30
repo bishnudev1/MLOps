@@ -10,3 +10,5 @@
 ### Machine Learning Algorithms
 ### Natural Language Processing
 ### Deep Learning Algorithms
+### Encoder-Decoder Architecture & Transformers
+### Generative AI with Langchain, HuggingFace & pre-trained LLM's ( GPT, LLAMA, Gemini, Mistral )
